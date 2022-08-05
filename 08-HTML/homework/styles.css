@@ -1,15 +1,34 @@
 @charset "utf-8";
 h1 {
+	position: relative;
+    top: 00px;
+    text-align: center;
 	color:green}
-	img {
+h3 {
+	position: relative;
+    top: 00px;
+	text-align: center;
+	color:brown}
+h4 {position: relative;
+    top: 00px;
+    text-align: center;
+	color:brown}
+img {
 	width:400px}
-	#thirdDiv{
+#thirdDiv{
 		height: 600px;
 		width: 500px;
 		background-color: orange;
 		padding: 50px;
 		border:2px solid yellow} 
-	#spanId{
+
+#spanId{
+	align: center;
 		font-size: 18px;
 		margin: 50px}/* CSS Document */
+body {
+  background-image: url("https://previews.123rf.com/images/tohey/tohey1602/tohey160200020/52800988-hamburguesas-en-un-fondo-blanco-patr%C3%B3n-sin-fisuras-ilustraci%C3%B3n.jpg");
+  background-repeat: repeat;
+  }
 
+}
