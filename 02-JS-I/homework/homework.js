@@ -35,8 +35,8 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  var x = 5;
-  var y = 3;
+  //var x = 5;
+  //var y = 3;
   return  x + y;  
 }
 
@@ -75,8 +75,11 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num<90) return true
-} else { return false;
+  if (num<90) {
+    return true
+   } else {
+    return false
+   }
 }
 
 function mayorQueCincuenta(num) {
@@ -96,15 +99,15 @@ function obtenerResto(x, y) {
   return x % y;
 }
 
-function esPar(num) 
+function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if( num % 2 === 0) {
+  if ( num % 2 === 0) { 
     return true;
   } else {
-    return false;
-}
+    return false   }
+  }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
@@ -120,7 +123,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  Math.pow (num, 2)
+  return Math.pow (num, 2);
 }
 
 function elevarAlCubo(num) {
@@ -158,6 +161,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
+  // Tu código:
   return Math.random();
 }
 
@@ -167,35 +171,38 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if ( numero === 0) return false;} 
- if (num > 0) return "Es positivo";
-if (num < 0) return "Es negativo";
+  //Tu código:
+  if(numero>0) return "Es positivo";
+  if(numero<0) return "Es negativo";
+  if(numero === 0) return false;
+}
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return str + !}
+  return str + "!"}
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  //return "$nombre" "$apellido";
-  var combinado (nombre + " " + apellido);
-return combinado}
+  //return "$nombre" '$apellido'}
+  var combinado = nombre+" "+apellido;
+  return combinado}
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  // return "hola $nombre !"
-  return "hola" + nombre  + !}
+   return `Hola ${nombre}!`;
+     //return "hola" + nombre  + "!";
+}
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  retunr (alto * ancho);
+  return (alto * ancho);
 }
 
 
@@ -242,12 +249,12 @@ function esVocal(letra){
   // if (letra === "a" || letra === "e" ||letra === "i" || letra === "o" || letra === "u")
   // {return correcto};
   // else return incorecto;}
-if   {letra.length > 1;
-    return "Dato incorrecto"}
+if   (letra.length > 1) 
+   {return "Dato incorrecto"}
 if (letra === "a" || letra === "e" ||letra === "i" || letra === "o" || letra === "u")
-return "Es vocal";} 
+{return "Es vocal";} 
 {return "Dato incorrecto";}
-
+}
 
 
 
