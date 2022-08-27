@@ -1,0 +1,24 @@
+OBJETOS: es similar a un array, pero es diferente, ya que el indice que utilizamos para recorrer un array, 
+se encuentra ordenado de 0 en adelante, sin embargo, con un objeto, almacenamos es una colección de PROPIEDADES,
+estas son representadas por un "key" o clave, esto indica que cada propiedades poseen un nombre, allí guardaremos 
+el valor que deseemos asignarle, y posteriormente podremos acceder a él a través del nombre del objeto y el de la 
+propiedad (clave/key), sin tener la necesidad de buscar en que posicion del array se encuentra el elemento que 
+se este buscando en dicho momento.-
+
+METODOS: Son funciones que se encuentran establecidas como valor de un objeto, hay otras propiedades poseen funciones
+de forma predeterminada, como por ejemplo .length, que te permite saber la longitud de un objeto, sin embargo podemos, 
+introfucir la funcion que necesitemos segun el caso.-
+ 
+FOR....IN: en un método que podemos utilizar para iterar sobre todos los elementos enumerables de un objeto generando 
+un bucle, este va registrando el nombre y el valor de cada elemento.- 
+
+
+NOTACION DE CORCHETES: (bracket notation) es similar a la utilizada en los arrary, teniendo en cuenta que elindice no 
+va a estar indicado por el número referente a su lugar, sino que luego de poner el nombre del objeto, se va a llamar a
+la propiedad mediante el nombre, aplicando comillas con éste como con una string.
+NOTACION DE PUNTOS: (dot notation) en lugar de utilizar los corchetes, nos permite colocar un punto entre el objeto y el nombre de
+la propiedad.-  L
+a diferencia entre ambos, ademas de su notable sintaxis a la hora de ser escritos, es que dot notation es usado de forma literal,
+es decir, si creamos una variable, y le asignamos como valor un elemento del objeto, al no ser el nombre preciso que posee la propiedad
+en sí, no nos daría el resultado deseado, sin embargo, si introducimos la variable dentro de bracket notation, reconocera que le 
+introducimos una variable, y nos mostrara el contenido de esta.- 

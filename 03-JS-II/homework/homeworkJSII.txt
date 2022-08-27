@@ -1,0 +1,17 @@
+FOR: es un statement, que nos permite hacer un bucle, recorriendo un array o una matriz, 
+tiene una forma de sintaxis parecida al "if", sin embargo, debemos asignale tres expresiones 
+entre parentesis luego de la palabra clave "for" usaremos una expresion inicial, luego una 
+condicional, que indica hasta cuando se reperira la funcion que luego se introduce entre 
+corcehtes, y una expresion final, posteriormente entre corchetes lo que buscamos encontrar 
+en el elemento al que se le aplica el bucle, y en ese caso la funcion se seguirá ejecuntando 
+hasta que al retornar "false" se detendra. -
+
+"&&" "||" "!": estos son operadores lógicos, que nos permiten juntar expresiones de igualdad
+(es decir, que utilizan operadores de comparación) y determinar si son "true" o "false" ambas, 
+o solo una de ellas, o ninguna, en el caso de "&&", es llamado "Y", lo que implica que sera true, 
+solo si ambos valores lo son, de lo contrario retornara false, luego "||" representa el "o", y 
+nos permite obtener un true, solo con que alguna de las expresiones involucradas lo sea, solo 
+dando false en caso de que ambas obtengan un valor "false", por ultimo, "!" representa "no" y 
+nos permite modificar el valor de algo a su contrario, en si tenemos algo "true" con el signo de 
+exclamación se vovlera false, y visebersa.- 
+     

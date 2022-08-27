@@ -1,0 +1,23 @@
+VARIABLES: Se pueden imaginar como cajas capaces de almacenar contenido, al crear una variable, 
+se utilizan palabras claves, que ya estan predeterminadas para dicho uso (que son "var", "let" 
+o "const"), seguidamente, se la puede dejar "vacía" para asignarle un valor luego al llamarla por 
+el nombre que le asignamos tras dejar un espacio de la palabra clave, o para asignarle un valor usaremos 
+el operador de asignación "=".
+
+STRINGS: son un tipo de dato, en este caso representa bloques de texto, los cuales se indican entre comillas.
+
+FUNCIONES: son un tipo especial de objeto, ya que se lo puede "invocar" mediante un nombre, ejemplo: "function nombre () {}"
+entre los parentesis podremos asignarle argumentos a la función para que con ellos haga lo que se le ordena mediante un 
+codigo que se introduce entre los corchetes. Los argumentos son elementos que le brindamos a la funcion, pueden contener
+variables, o distito tipo de datos.
+
+DECLARACIONES ("if"): las declaraciones son una sentencìa "statement" que nos permite determinar variables para hacer algo con
+ellas a traves de las funciones. - En el caso de las declaraciones "if" pertenece al grupo de las declaraciones condicionales, 
+mediante las cuales podemos contral el flujo de ejecucion del codigo, es decir que se continuara ejecutando el mismo mientas se
+cumpla la condicion indicada en la funcion.- 
+
+VALORES BOOLEANOS: son un tipo de dato, que responden solo a dos valores, "true" o "false", proveniente de la logica de boole, 
+la cualtiene como base del codigo binario.- 
+
+
+

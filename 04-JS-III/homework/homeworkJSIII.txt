@@ -1,0 +1,7 @@
+ARRAYS: son tambien conocidos como "matrices o arreglos", nos permite almacenar varios datos, incluso de distinto tipo, 
+como string, numeros o booleanos, para declarar un array, le pondremos un nombre y con el signo igual le asignaremos 
+un valor, que al ser una colección de datos, usaremos como contenedor corchetes, y separando los datos que vamos a 
+introducir entre comas, posteriormente podremos acceder a ellos.- Los array, pueden recibir diferentes propiedades, 
+que nos permetiran trabajar sobre los elementos contenidos.- 
+
+
